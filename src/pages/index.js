@@ -8,7 +8,9 @@ import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
-import SvgCharts from '../svg/SvgCharts';
+import Vegetables from '../svg/Vegetables';
+import Seeds from '../svg/Seeds';
+import Planting from '../svg/Planting';
 
 export default () => (
   <Layout>
@@ -16,18 +18,17 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+            Farmer mate, placeholder
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
+            Learn, find spots, buy and sell! Lorem ipsum lorem ipsum lorem ipsum....
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="mt-4 text-gray-600">Create your account to join the communtiy of farmers!</p>
         </div>
-        <div className="lg:w-1/2">
+        <div className="mx-auto w-1/2 lg:w-1/3">
           <HeroImage />
         </div>
       </div>
@@ -70,43 +71,40 @@ export default () => (
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Guide</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+            Follow our guides or check out other members guide, to become a real ace in farming!
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<Seeds />}
     />
     <SplitSection
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            Cultivation spots
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            Find a cultivation spot near your place and start farming! Or do you own some land and want to earn some extra bucks, share your spot with other farmers!
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<Planting />}
     />
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+            Buy and sell
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            Buy locally freshly farmed vegetables and plants from other farmers! Earn some extra bucks by selling your own farmed vegetables and plants!
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<Vegetables />}
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">

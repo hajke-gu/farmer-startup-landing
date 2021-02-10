@@ -4,8 +4,10 @@ const Footer = () => (
   <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-800">
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">About Us</h2>
-        <p className="mt-5">Ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p>
+        <h2 className="text-lg font-semibold">Acknowledgement</h2>
+        <div className="pt-3 mt-1 text-sm font-mono text-gray-500">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <p className="pt-3 mt-1 text-sm font-mono text-gray-500">Website built with template developed by&nbsp;
+      <a href="https://codebushi.com">Code Bushi</a></p>
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
