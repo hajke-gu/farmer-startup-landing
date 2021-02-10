@@ -1,17 +1,18 @@
-# Gatsby Lander
+# FARMER, Startup idea Landing Page
 
-This is an experimental starter built using [gatsby-theme-codebushi](https://github.com/codebushi/gatsby-theme-codebushi), a theme which uses [Tailwind CSS](https://tailwindcss.com/).
-
-Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
-
-## Preview
-
-https://gatsby-lander.surge.sh/
+This is an landing page for the startup idea ... . From University of Gothenburg course DIT835 Start-ups and Industrial product management.
 
 ## Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-lander https://github.com/codebushi/gatsby-starter-lander`
+- Install Gatsby CLI using npm:<br/>
+`npm install -g gatsby-cli`
 
-Run `gatsby develop` in the terminal to start the dev site.
+- Clone this repository
+
+- Run `gatsby develop` to start the dev site.
+
+## Acknowledgement
+
+Website built with template developed by [Code Bushi](https://codebushi.com)
+
+Icons made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com)
