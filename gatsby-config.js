@@ -6,5 +6,7 @@ module.exports = {
         tailwindConfig: `tailwind.config.js`
       }
     }
-  ]
+  ],
+  pathPrefix: "/farmer-startup-landing",
+  
 };
