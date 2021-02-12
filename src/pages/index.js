@@ -11,29 +11,30 @@ import HeroImage from '../svg/HeroImage';
 import Vegetables from '../svg/Vegetables';
 import Seeds from '../svg/Seeds';
 import Planting from '../svg/Planting';
+import Logo from '../images/logo2.png';
 
 export default () => (
   <Layout>
-    <section className="pt-20 md:pt-40">
-      <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Farmer mate, placeholder
-          </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
-            Learn, find spots, buy and sell! Lorem ipsum lorem ipsum lorem ipsum....
+    <section className="pt-10 lg:pt-32">
+      <div className="container mx-auto px-8">
+      <div className="mx-auto w-1/2 lg:w-1/3">
+          {/*<HeroImage />*/}
+          <img src={Logo} alt="logo" class="flex justify-center"/>
+        </div>
+        <div className="container mx-auto text-center lg:w-1/2">
+          <p className="text-xl lg:text-2xl font-light">
+            Grow togehter!
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
           </p>
           <p className="mt-4 text-gray-600">Create your account to join the communtiy of farmers!</p>
         </div>
-        <div className="mx-auto w-1/2 lg:w-1/3">
-          <HeroImage />
-        </div>
+        
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+    
+    {/* <section id="services" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
@@ -67,8 +68,10 @@ export default () => (
         </div>
       </div>
     </section>
+*/}
+  <div id="features" className="pt-32 lg:pt-32">
+    <h2 className="text-center text-3xl lg:text-5xl font-semibold">Main Features</h2>
     <SplitSection
-      id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Guide</h3>
@@ -106,6 +109,7 @@ export default () => (
       }
       secondarySlot={<Vegetables />}
     />
+    </div>
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
