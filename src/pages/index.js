@@ -11,26 +11,28 @@ import HeroImage from '../svg/HeroImage';
 import Vegetables from '../svg/Vegetables';
 import Seeds from '../svg/Seeds';
 import Planting from '../svg/Planting';
-import Logo from '../images/logo2.png';
+import Logo from '../images/logo3.png';
 
 export default () => (
   <Layout>
-    <section className="pt-10 lg:pt-32">
-      <div className="container mx-auto px-8">
-      <div className="mx-auto w-1/2 lg:w-1/3">
-          {/*<HeroImage />*/}
-          <img src={Logo} alt="logo" class="flex justify-center"/>
-        </div>
+    <section className="pt-10 lg:pt-48">
+      <div className="container mx-auto px-8 lg:flex justify-center items-center">
         <div className="container mx-auto text-center lg:w-1/2">
-          <p className="text-xl lg:text-2xl font-light">
-            Grow togehter!
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl leading-none font-semibold">
+            Let us grow togehter!
+          </h1>
+          <p className="pt-6 text-xl lg:text-2xl font-light">
+            Join the communtiy and become an expert in plants!
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
           </p>
-          <p className="mt-4 text-gray-600">Create your account to join the communtiy of farmers!</p>
+          {/*<p className="mt-4 text-gray-600">Create your account to join the communtiy of farmers!</p>*/}
         </div>
-        
+        <div className="mx-auto">
+          {/*<HeroImage />*/}
+          <img src={Logo} alt="logo" className="mx-auto"/>
+        </div>
       </div>
     </section>
     
