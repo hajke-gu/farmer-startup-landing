@@ -1,6 +1,6 @@
-# FARMER, Startup idea Landing Page
+# Viridis - A gatsby landing page
 
-This is an landing page for the startup idea ... . From University of Gothenburg course DIT835 Start-ups and Industrial product management.
+This is a simple one page gatsby landing page for the the start-up idea 'Viridis'. From University of Gothenburg course DIT835 Start-ups and Industrial product management.
 
 ## Installation
 
