@@ -15,7 +15,7 @@ import Logo from '../images/logo3.png';
 
 export default () => (
   <Layout>
-    <section className="pt-10 lg:pt-48">
+    <section id="top" className="pt-20 lg:pt-48">
       <div className="container mx-auto px-8 lg:flex justify-center items-center">
         <div className="container mx-auto text-center lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl leading-none font-semibold">
@@ -29,7 +29,7 @@ export default () => (
           </p>
           {/*<p className="mt-4 text-gray-600">Create your account to join the communtiy of farmers!</p>*/}
         </div>
-        <div className="mx-auto">
+        <div className="mx-auto pt-10 lg:pt-0">
           {/*<HeroImage />*/}
           <img src={Logo} alt="logo" className="mx-auto"/>
         </div>
@@ -71,7 +71,7 @@ export default () => (
       </div>
     </section>
 */}
-  <div id="features" className="pt-32 lg:pt-32">
+  <div id="features" className="pt-48 xl:pt-32">
     <h2 className="text-center text-3xl lg:text-5xl font-semibold">Main Features</h2>
     <SplitSection
       primarySlot={
