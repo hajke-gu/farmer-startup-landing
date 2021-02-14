@@ -10,6 +10,11 @@ const Footer = () => (
       <a href="https://codebushi.com">Code Bushi</a></p>
       </div>
       <div className="flex-1 px-3">
+        <h2 className="text-lg font-semibold">Contact</h2>
+        <p><a href="https://github.com/hajke-gu/farmer-startup-landing">GitHub</a></p>
+      </div>
+      {/* 
+      <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
         <ul className="mt-4 leading-loose">
           <li>
@@ -34,6 +39,7 @@ const Footer = () => (
           </li>
         </ul>
       </div>
+      */}
     </div>
   </footer>
 );
