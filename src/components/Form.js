@@ -6,6 +6,7 @@ export default function Form(){
   function sendEmail(e){
     e.preventDefault();
     console.log(process.env.GATSBY_USER_ID);
+    console.log(process.env.GATSBY_SERVICE_ID);
 
     /*emailjs.sendForm(process.env.GATSBY_SERVICE_ID, 'interest_form', e.target, process.env.GATSBY_USER_ID)
       .then((result) => {
@@ -41,8 +42,8 @@ export default function Form(){
           <p className="mt-8">
             <button type="submit" className="bg-primary hover:bg-primary-darker rounded text-white py-5 px-16 text-lg">Register your interest</button>
           </p>
+          <p id="confirmation" className="hidden text-center p-2">Thank you for your feedback!</p>
         </form> 
-        <p id="confirmation" className="hidden">Interest registered!</p>
       </div>
     </div>
   );
