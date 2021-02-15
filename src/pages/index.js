@@ -152,9 +152,6 @@ export default () => (
 
       <Form/>
       
-      <p className="mt-8">
-        <Button size="xl">Register your interest</Button>
-      </p>
     </section>
   </Layout>
 );
