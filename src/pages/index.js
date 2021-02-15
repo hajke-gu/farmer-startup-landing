@@ -1,5 +1,7 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Button from '../components/Button';
+import Form from '../components/Form';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
@@ -25,7 +27,9 @@ export default () => (
             Join the communtiy and become an expert in plants!
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <AnchorLink offset="120" href="#interest">
+              <Button size="lg">Get Started</Button>
+            </AnchorLink>
           </p>
           {/*<p className="mt-4 text-gray-600">Create your account to join the communtiy of farmers!</p>*/}
         </div>
@@ -140,14 +144,14 @@ export default () => (
         </div>
       </div>
     </section>
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+    <section id="interest" className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Start your adventure!</h3>
       <p className="mt-8 text-xl font-light">
-        Ready to become the green expert your aspire to be, join the commuinty of Viridis and start that adventure!
+        The idea of Viridis is still being developed, please let us know which of the features you are interested in!
       </p>
-      <p className="mt-8">
-        <Button size="xl">Register your interest</Button>
-      </p>
+
+      <Form/>
+      
     </section>
   </Layout>
 );
