@@ -7,6 +7,6 @@ module.exports = {
       }
     }
   ],
-  pathPrefix: "/farmer-startup-landing",
+  pathPrefix: "/viridis-landing-page",
   
 };
