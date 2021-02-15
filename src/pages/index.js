@@ -147,7 +147,7 @@ export default () => (
     <section id="interest" className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Start your adventure!</h3>
       <p className="mt-8 text-xl font-light">
-        The idea of Viridis is still being developed, please let us know which of the features you are interested in!
+        The idea of Viridis is still being developed, thank you for showing interest in our product!
       </p>
 
       {/*<Form/>*/}
