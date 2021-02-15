@@ -150,7 +150,7 @@ export default () => (
         The idea of Viridis is still being developed, please let us know which of the features you are interested in!
       </p>
 
-      <Form/>
+      {/*<Form/>*/}
       
     </section>
   </Layout>
