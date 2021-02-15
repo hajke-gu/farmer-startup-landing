@@ -1,23 +1,26 @@
-import React from 'react';
+import React, { createElement } from 'react';
 import emailjs from 'emailjs-com';
 
 export default function Form(){
   
   function sendEmail(e){
     e.preventDefault();
-    console.log(process.env.REACT_APP_USER_ID);
+    console.log(process.env.GATSBY_USER_ID);
 
-    emailjs.sendForm('service_u96gxdb', 'interest_form', e.target, process.env.REACT_APP_USER_ID)
+    /*emailjs.sendForm(process.env.GATSBY_SERVICE_ID, 'interest_form', e.target, process.env.GATSBY_USER_ID)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+    */
+     var confirmation = document.getElementById("confirmation"); 
+     confirmation.style.display = "block";
   }
 
   return(
     <div>
-      <div className="container mx-auto flex text-left">  
+      <div id="interest-form" className="container mx-auto flex text-left">  
         <form className="mx-auto bg-white rounded-lg px-5 py-2 mt-5" onSubmit={sendEmail}>
           {/*<div className="mx-auto">
             <legend className="mx-auto font-medium text-gray-900">Features</legend>
@@ -39,6 +42,7 @@ export default function Form(){
             <button type="submit" className="bg-primary hover:bg-primary-darker rounded text-white py-5 px-16 text-lg">Register your interest</button>
           </p>
         </form> 
+        <p id="confirmation" className="hidden">Interest registered!</p>
       </div>
     </div>
   );
