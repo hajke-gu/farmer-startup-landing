@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v1
       - uses: enriikke/gatsby-gh-pages-action@v2
         env: 
-          GATSBY_USER_ID = ${{ secrets.GATSBY_USER_ID }}
-          GATSBY_SERVICE_ID = ${{ secrets.GATSBY_SERVICE_ID }}
+          GATSBY_USER_ID: ${{ secrets.GATSBY_USER_ID }}
+          GATSBY_SERVICE_ID: ${{ secrets.GATSBY_SERVICE_ID }}
         with:
           access-token: ${{ secrets.farmer_startup }}
           deploy-branch: gh-pages
