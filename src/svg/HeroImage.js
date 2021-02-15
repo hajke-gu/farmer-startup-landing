@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroImage = () => (
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+viewBox="0 0 512 512" enableBackground="new 0 0 512 512">
 <rect x="10" y="259.75" fill="#30995B" width="54" height="180"/>
 <path fill="#F9BD95" d="M494.067,320.596c-9.78-9.78-25.15-11.18-36.536-3.328l-88.21,74.793
 	c8.043-8.204,8.453-24.767-0.984-34.204l0,0c-3.75-3.751-8.838-5.858-14.142-5.858h-93.326c-7.957,0-15.587-3.161-21.213-8.787

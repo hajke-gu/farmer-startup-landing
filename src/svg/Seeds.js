@@ -2,7 +2,7 @@ import React from 'react';
 
 const SvgCharts = () => (
 	<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-		 viewBox="0 0 512.001 512.001" enable-background="new 0 0 512.001 512.001">
+		 viewBox="0 0 512.001 512.001" enableBackground="new 0 0 512.001 512.001">
 	<g>
 		<path fill="#ACD670" d="M345.557,219.759c17.122,6.204,37.755,35.188,15.04,76.66
 			c-22.715,41.471-62.754,45.135-78.353,33.299c-15.599-11.837-14.919-31.855-6.637-40.632c10.572-11.205,20.262-6.658,29.147-20.137

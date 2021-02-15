@@ -4,7 +4,7 @@ const mainColor = '#4299e1';
 
 const SvgCharts = () => (
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-	 viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+	 viewBox="0 0 512 512" enableBackground="new 0 0 512 512">
 <rect x="10" y="256" fill="#D1C584" width="492" height="246"/>
 <path fill="#30995B" d="M416.69,252.891c1.958-3.082,3.585-6.396,4.83-9.891c3.037,0.582,6.169,0.898,9.375,0.898
 	c27.344,0,49.51-22.167,49.51-49.511c0-23.155-15.897-42.592-37.37-48.006c6.139-8.246,9.774-18.466,9.774-29.536

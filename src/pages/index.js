@@ -140,11 +140,38 @@ export default () => (
         </div>
       </div>
     </section>
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+    <section id="interest" className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Start your adventure!</h3>
       <p className="mt-8 text-xl font-light">
-        Ready to become the green expert your aspire to be, join the commuinty of Viridis and start that adventure!
+        The idea of Viridis is still being developed, please let us know which of the features you are interested in!
       </p>
+
+      {/**
+       * Form
+       */}
+
+      <div className="container mx-auto flex text-left">
+        
+        <form className="mx-auto bg-white rounded-lg px-5 py-2 mt-5">
+          <div className="mx-auto">
+            <legend className="mx-auto font-medium text-gray-900">Features</legend>
+          </div>
+          <div>
+            <input id="guides" name="guides" type="checkbox" className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded" />
+            <label htmlFor="guides" className="px-4 font-medium text-gray-700">Guides</label>
+          </div>
+          <div>
+            <input id="plot-sharing" name="plot-sharing" type="checkbox" className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded" />
+            <label htmlFor="plot-sharing" className="px-4 font-medium text-gray-700">Cultivation plot sharing</label>
+          </div>
+          <div>
+            <input id="buy-sell" name="buy-sell" type="checkbox" className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded" />
+            <label htmlFor="buy-sell" className="px-4 font-medium text-gray-700">Buy and sell plants</label>
+          </div>
+        </form>
+        
+      </div>
+
       <p className="mt-8">
         <Button size="xl">Register your interest</Button>
       </p>
