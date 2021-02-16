@@ -75,7 +75,7 @@ export default () => (
       </div>
     </section>
 */}
-  <div id="features" className="pt-48 xl:pt-32">
+  <div id="features" className="pt-48">
     <h2 className="text-center text-3xl lg:text-5xl font-semibold">Main Features</h2>
     <SplitSection
       primarySlot={
@@ -147,10 +147,10 @@ export default () => (
     <section id="interest" className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Start your adventure!</h3>
       <p className="mt-8 text-xl font-light">
-        The idea of Viridis is still being developed, thank you for showing interest in our product!
+        The idea of Viridis is still being developed, please let us know which feature you are intrested in!
       </p>
 
-      {/*<Form/>*/}
+      <Form/>
       
     </section>
   </Layout>

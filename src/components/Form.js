@@ -6,15 +6,15 @@ export default function Form(){
   function sendEmail(e){
     e.preventDefault();
     console.log(process.env.GATSBY_USER_ID);
-    //console.log(process.env.GATSBY_SERVICE_ID);
+    console.log(process.env.GATSBY_SERVICE_ID);
 
-    /*emailjs.sendForm(process.env.GATSBY_SERVICE_ID, 'interest_form', e.target, process.env.GATSBY_USER_ID)
+    emailjs.sendForm("service_u96gxdb", 'interest_form', e.target, "user_QquQINel0yvXcH39xf4pg")
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
-    */
+  
      var confirmation = document.getElementById("confirmation"); 
      confirmation.style.display = "block";
   }
