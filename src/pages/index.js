@@ -21,7 +21,7 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex justify-center items-center">
         <div className="container mx-auto text-center lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl leading-none font-semibold">
-            Let us grow togehter!
+            Let us grow together!
           </h1>
           <p className="pt-6 text-xl lg:text-2xl font-light">
             Join the communtiy and become an expert in plants!
