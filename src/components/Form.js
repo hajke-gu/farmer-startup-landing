@@ -5,8 +5,6 @@ export default function Form(){
   
   function sendEmail(e){
     e.preventDefault();
-    console.log(process.env.GATSBY_USER_ID);
-    console.log(process.env.GATSBY_SERVICE_ID);
 
     emailjs.sendForm("service_u96gxdb", 'interest_form', e.target, "user_QquQINel0yvXcH39xf4pg")
       .then((result) => {
