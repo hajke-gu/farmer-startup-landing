@@ -2,11 +2,11 @@ import farmer from '../images/farmer.svg';
 
 export default [
   {
-    title: 'Fantastic!',
+    title: 'Perfect!',
     content:
-      'I always struggle to keep my plants alive! With some help I am sure I can learn how to keep them alive! ',
-    customerName: 'Oprah Winfrey',
-    customerTitle: 'Aspiring plant lover',
+      "I'm looking forward to start using Viridis, to help me become an expert at plants!",
+    customerName: 'Zhichuan Li',
+    customerTitle: 'Software Engineer',
     customerImage: farmer
   },
   {
