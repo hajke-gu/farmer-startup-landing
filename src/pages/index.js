@@ -116,7 +116,8 @@ export default () => (
       secondarySlot={<Vegetables />}
     />
     </div>
-    <section id="stats" className="py-20 lg:pt-32">
+    
+    {/*<section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
@@ -131,10 +132,11 @@ export default () => (
           </div>
         </div>
       </div>
-    </section>
+    </section>*/}
+
     <section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What potential farmers are saying</LabelText>
+        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">

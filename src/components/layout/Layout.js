@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <>
       <Helmet>
           <link rel="icon" href={favicon} />
-          <title>Viridis - Grow togehter!</title>
+          <title>Viridis - Grow together!</title>
       </Helmet>
       <Header />
         <main className="text-gray-900">{children}</main>

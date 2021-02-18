@@ -19,9 +19,6 @@ const Header = () => (
         <AnchorLink className="px-4" href="#features">
           Features
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
-        </AnchorLink>
         <AnchorLink className="px-4" href="#testimonials">
           Testimonials
         </AnchorLink>
