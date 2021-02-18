@@ -15,3 +15,4 @@ jobs:
           access-token: ${{ secrets.farmer_startup }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
+        

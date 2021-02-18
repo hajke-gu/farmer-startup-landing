@@ -1,5 +1,7 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Button from '../components/Button';
+import Form from '../components/Form';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
@@ -25,7 +27,9 @@ export default () => (
             Join the communtiy and become an expert in plants!
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
+            <AnchorLink offset="120" href="#interest">
+              <Button size="lg">Get Started</Button>
+            </AnchorLink>
           </p>
           {/*<p className="mt-4 text-gray-600">Create your account to join the communtiy of farmers!</p>*/}
         </div>
@@ -71,7 +75,7 @@ export default () => (
       </div>
     </section>
 */}
-  <div id="features" className="pt-48 xl:pt-32">
+  <div id="features" className="pt-48">
     <h2 className="text-center text-3xl lg:text-5xl font-semibold">Main Features</h2>
     <SplitSection
       primarySlot={
@@ -112,7 +116,8 @@ export default () => (
       secondarySlot={<Vegetables />}
     />
     </div>
-    <section id="stats" className="py-20 lg:pt-32">
+    
+    {/*<section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
@@ -127,10 +132,11 @@ export default () => (
           </div>
         </div>
       </div>
-    </section>
+    </section>*/}
+
     <section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
-        <LabelText className="mb-8 text-gray-600 text-center">What potential farmers are saying</LabelText>
+        <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
           {customerData.map(customer => (
             <div key={customer.customerName} className="flex-1 px-3">
@@ -140,14 +146,14 @@ export default () => (
         </div>
       </div>
     </section>
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+    <section id="interest" className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Start your adventure!</h3>
       <p className="mt-8 text-xl font-light">
-        Ready to become the green expert your aspire to be, join the commuinty of Viridis and start that adventure!
+        The idea of Viridis is still being developed, please let us know which feature you are intrested in!
       </p>
-      <p className="mt-8">
-        <Button size="xl">Register your interest</Button>
-      </p>
+
+      <Form/>
+      
     </section>
   </Layout>
 );

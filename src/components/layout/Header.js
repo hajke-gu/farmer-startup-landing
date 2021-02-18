@@ -19,15 +19,14 @@ const Header = () => (
         <AnchorLink className="px-4" href="#features">
           Features
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
-          Stats
-        </AnchorLink>
         <AnchorLink className="px-4" href="#testimonials">
           Testimonials
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
+        <AnchorLink offset="120" href="#interest">
+          <Button className="text-sm">Register</Button>
+        </AnchorLink>
       </div>
     </div>
   </header>

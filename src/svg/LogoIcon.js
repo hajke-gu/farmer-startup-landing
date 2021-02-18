@@ -2,7 +2,7 @@ import React from 'react';
 
 const LogoIcon = () => (
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-	 viewBox="0 0 512.001 512.001" enable-background = "new 0 0 512.001 512.001">
+	 viewBox="0 0 512.001 512.001" enableBackground = "new 0 0 512.001 512.001">
 <circle fill="#FFC943" cx="256.287" cy="283.107" r="174.028"/>
 <path fill="#30995B" d="M247.941,327.631c127.391-47.645,254.056-47.645,254.056-47.645l-0.049,222.011
 	c0,0-85.123,0-188.449,0L247.941,327.631z"/>
