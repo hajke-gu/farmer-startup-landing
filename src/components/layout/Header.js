@@ -25,7 +25,7 @@ const Header = () => (
       </div>
       <div className="hidden md:block">
         <AnchorLink offset="120" href="#interest">
-          <Button className="text-sm">Register interest</Button>
+          <Button className="text-sm">Register</Button>
         </AnchorLink>
       </div>
     </div>
