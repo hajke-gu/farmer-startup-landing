@@ -18,11 +18,11 @@ export default [
     customerImage: farmer
   },
   {
-    title: 'Helpful',
+    title: 'Exciting',
     content:
-      '\"Finally I place where I dont have to stand in queue for 10 years to find a cultivation plot.\"',
-    customerName: 'Pelle Pellesson',
-    customerTitle: 'Impatient man',
+      '\"Now I can become even better at taking care of my plants!\"',
+    customerName: 'Sabina Rooth',
+    customerTitle: 'Plant lover',
     customerImage: farmer
   }
 ];
